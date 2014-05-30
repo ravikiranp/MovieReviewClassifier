@@ -1,0 +1,12 @@
+README
+
+FILES:
+1) bigram.py: Language model classifier uses bigram model.
+2) build_bigram_features.py: Creates feature vector (bigram frequency) for input to perceptron and scikit svm.
+3) build_features_bigram_for_liblinear.py: Creates feature vector (bigram frequency) for input to LIBLINEAR.
+4) build_features_for_liblinear_uni.py: Creates feature vector (unigram frequency) for input to LIBLINEAR.
+5) build_unigram_features.py: Creates feature vector (unigram frequency) for input to perceptron and scikit svm.
+6) svm_train_and_test.py: Scikit SVM classifier.
+7) unigram.py: Language model classifier uses unigram model.
+
+The folder contains a few sample csv files which are intermidiate dataset forms for SVM and Perceptron.
